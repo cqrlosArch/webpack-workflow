@@ -1,0 +1,43 @@
+{
+    "name": "webpack-worflow",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "rimraf dist && webpack --config webpack/webpack.config.js --mode=development ",
+        "build": " rimraf dist && webpack --config webpack/webpack.config.js --mode=production ",
+        "start": " webpack-dev-server --config webpack/webpack.config.js --mode=development "
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/core": "^7.10.0",
+        "@babel/plugin-proposal-object-rest-spread": "^7.10.0",
+        "@babel/preset-env": "^7.10.0",
+        "autoprefixer": "^9.8.0",
+        "babel-loader": "^8.1.0",
+        "css-loader": "^3.5.3",
+        "cssnano-webpack-plugin": "^1.0.3",
+        "eslint": "^7.1.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-plugin-import": "^2.20.2",
+        "file-loader": "^6.0.0",
+        "handlebars": "^4.7.6",
+        "handlebars-loader": "^1.7.1",
+        "html-webpack-plugin": "^4.3.0",
+        "image-webpack-loader": "^6.0.0",
+        "mini-css-extract-plugin": "^0.9.0",
+        "node-sass": "^4.14.1",
+        "postcss-cli": "^7.1.1",
+        "postcss-loader": "^3.0.0",
+        "rimraf": "^3.0.2",
+        "sass-loader": "^8.0.2",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "devDependencies": {
+        "eslint-loader": "^4.0.2"
+    }
+}
