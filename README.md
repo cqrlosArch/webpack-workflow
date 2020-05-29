@@ -17,7 +17,7 @@
 ## Como usarlo?:
 
 1. Clonar el Proyecto
-2. Use ``cd workflow-webpack``
+2. Use ``cd webpack-workflow``
 3. ``npm/yarn install``
 4. ``npm/yarn start``
 
