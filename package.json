@@ -1,14 +1,14 @@
 {
     "name": "webpack-worflow",
     "version": "1.0.0",
-    "description": "",
+    "description": "Webpack, Babel, Sass & A Template Engine Handlebars",
     "main": "index.js",
     "scripts": {
         "dev": "rimraf dist && webpack --config webpack/webpack.config.js --mode=development ",
         "build": " rimraf dist && webpack --config webpack/webpack.config.js --mode=production ",
         "start": " webpack-dev-server --config webpack/webpack.config.js --mode=development "
     },
-    "keywords": [],
+    "keywords": ["webpack","babel","worflow","sass","handlebars","eslint"],
     "author": "",
     "license": "ISC",
     "dependencies": {
