@@ -9,7 +9,11 @@
         "start": " webpack-dev-server --config webpack/webpack.config.js --mode=development "
     },
     "keywords": ["webpack","babel","workflow","sass","handlebars","eslint"],
-    "author": "",
+    "author": "cqrlosArch",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/cqrlosArch/webpack-workflow"
+    },
     "license": "ISC",
     "dependencies": {
         "@babel/core": "^7.10.0",
