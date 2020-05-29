@@ -30,7 +30,7 @@
 
 ## Scripts creados para dev
 - Borra y crea el proyecto en produccion:
-  - Se inicia con:  `npx run buid'` ó `yarn build`
+  - Se inicia con:  `npx run build'` ó `yarn build`
 
 - Iniciar un servidor local para desarrollo:
   - Se inicia con: `npm start` ó `yarn start`
